@@ -1,3 +1,6 @@
+// Copyright © 2011, 2013 Martin Ueding <dev@martin-ueding.de>
+// Licensed under The MIT License
+
 var w =window.innerHeight / (Math.sin(Math.PI/3) + 0.5*Math.tan(Math.PI/6));
 var w_shift = (window.innerWidth-w)/2;
 var paper = Raphael(w_shift, 0, w, window.innerHeight);
